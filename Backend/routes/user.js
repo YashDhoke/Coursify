@@ -3,6 +3,8 @@ const { authenticateJwt, SECRET } = require("../middleware/auth");
 const { User, Course, Admin } = require("../db");
 const router = express.Router();
 
+// this is the user part in backend 
+
 router.post("/signup" , async (req , res) => {
     const {username , password} = req.body ; 
     const user = await User.findOne({username }) ; 
