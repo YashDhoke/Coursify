@@ -14,10 +14,10 @@ export const Landing = () => {
             <Grid item xs={12} md={6} lg={6}>
                 <div style={{marginTop: 100}}>
                     <Typography variant={"h2"}>
-                        Coursera Admin
+                        Coursify Admin
                     </Typography>
                     <Typography variant={"h5"}>
-                        A place to learn, earn and grow
+                        A place to learn and grow . 
                     </Typography>
                     {!userLoading && !userEmail && <div style={{display: "flex", marginTop: 20}}>
                         <div style={{marginRight: 10}}>
