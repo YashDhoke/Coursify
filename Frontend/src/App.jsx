@@ -1,19 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Signin from "./components/Signin.jsx";
-import Signup from "./components/Signup.jsx";
-import Appbar from "./components/Appbar.jsx";
-import AddCourse from "./components/AddCourse.jsx";
-import Courses from "./components/Courses";
-import Course from "./components/Course";
-import {Landing} from "./components/Landing.jsx";
-import { userState } from "./store/atoms/user.js";
-import {
-    RecoilRoot,
-    useSetRecoilState
-} from 'recoil';
-import axios from "axios";
-import {BASE_URL} from "./config.js";
-import {useEffect} from "react";
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Signin from "./components/Signin.jsx";
+// import Signup from "./components/Signup.jsx";
+// import Appbar from "./components/Appbar.jsx";
+// import AddCourse from "./components/AddCourse.jsx";
+// import Courses from "./components/Courses";
+// import Course from "./components/Course";
+// import {Landing} from "./components/Landing.jsx";y
+// import { userState } from "./store/atoms/user.js";
+// import {
+//     RecoilRoot,
+//     useSetRecoilState
+// } from 'recoil';
+// import axios from "axios";
+// import {BASE_URL} from "./config.js";
+// import {useEffect} from "react";
 
 
 function App() {
